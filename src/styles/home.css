@@ -1,0 +1,36 @@
+
+  .food__category {
+    background: #0078ae;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+  
+  .food__category button {
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+  }
+  
+  .food__category button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .foodBtnActive {
+    border-radius: 5px;
+    color: #df2020 !important;
+  }
+
+  
+  @media only screen and (max-width: 768px) {  
+    .food__category {
+      padding: 15px;
+    }
+    .food__category button {
+      padding: 5px 15px;
+      font-size: 0.7rem;
+    }
+  }

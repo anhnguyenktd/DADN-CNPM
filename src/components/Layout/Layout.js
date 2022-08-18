@@ -11,6 +11,7 @@ const Layout = () => {
             <Routes/>
         </div>
         <div>
+            <br></br>
             <Footer />
         </div>
     </div>

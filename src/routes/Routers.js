@@ -1,12 +1,12 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-import AllFoods from '../pages/AllFoods'
+import Menu from '../pages/Menu'
 import Cart  from '../pages/Cart'
 import Contact from '../pages/Contact'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
 import CheckOut from '../pages/CheckOut'
-import FoodDetails from '../pages/FoodDetails'
+import MenuDetails from '../pages/MenuDetails'
 import Home from '../pages/Home'
 
 const Routers = () => {
@@ -14,8 +14,8 @@ const Routers = () => {
     <Routes>
         <Route path='/' element={<Navigate to='/home' />} />
         <Route path='/home' element={<Home/>}/>
-        <Route path='/foods' element={<AllFoods/>}/>
-        <Route path='/foods/:id' element={<FoodDetails/>}/>
+        <Route path='/menu' element={<Menu/>}/>
+        <Route path='/menu/:id' element={<MenuDetails/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/checkout' element={<CheckOut/>}/>
         <Route path='/login' element={<Login/>}/>
