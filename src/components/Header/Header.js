@@ -9,19 +9,19 @@ import { cartUiActions } from '../../store/shopping-cart/cartUiSlice'
 
 const nav__links = [
   {
-    display: 'Home',
+    display: 'TRANG CHỦ',
     path: '/home',  
   },
   {
-    display: 'Foods',
+    display: 'THỰC ĐƠN',
     path: '/foods',  
   },
   {
-    display: 'Cart',
+    display: 'GIỎ HÀNG',
     path: '/cart',  
   },
   {
-    display: 'Contact',
+    display: 'LIÊN HỆ',
     path: '/contact',  
   },
 ]

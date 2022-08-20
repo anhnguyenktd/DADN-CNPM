@@ -225,7 +225,7 @@ const products = [
   {
     id: "21",
     title: "CHAI COCA-COLA 390ML",
-    price: 20.000,
+    price: 20000,
     image: Nuoc_05,
     category: "Nước uống",
   },

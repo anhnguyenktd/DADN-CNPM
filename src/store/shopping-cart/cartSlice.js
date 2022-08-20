@@ -13,7 +13,6 @@ const cartSlice = createSlice({
   initialState,
 
   reducers: {
-    // =========== Thêm sp ============
     addItem(state, action) {
       const newItem = action.payload;
       const existingItem = state.cartItems.find(
@@ -42,7 +41,6 @@ const cartSlice = createSlice({
       );
     },
 
-    // ========= remove item ========
 
     removeItem(state, action) {
       const id = action.payload;
@@ -63,7 +61,6 @@ const cartSlice = createSlice({
       );
     },
 
-    //============ Xóa sp ===========
 
     deleteItem(state, action) {
       const id = action.payload;
