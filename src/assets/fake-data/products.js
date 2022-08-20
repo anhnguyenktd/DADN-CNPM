@@ -31,7 +31,7 @@ const products = [
   {
     id: "01",
     title: "PIZZA BÒ - TÔM - MỰC",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_01,
     category: "Pizza",
 
@@ -41,7 +41,7 @@ const products = [
   {
     id: "02",
     title: "PIZZA BÁNH XÈO NHẬT ",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_02,
     category: "Pizza",
 
@@ -51,7 +51,7 @@ const products = [
   {
     id: "03",
     title: "PIZZA THẬP CẨM THƯỢNG HẠNG",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_03,
     category: "Pizza",
 
@@ -61,7 +61,7 @@ const products = [
   {
     id: "04",
     title: "PIZZA HẢI SẢN XỐT MAYONNAISE",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_04,
     category: "Pizza",
 
@@ -71,7 +71,7 @@ const products = [
   {
     id: "05",
     title: "PIZZA HẢI SẢN XỐT MAYONNAISE",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_05,
     category: "Pizza",
 
@@ -81,7 +81,7 @@ const products = [
   {
     id: "06",
     title: "PIZZA HẢI SẢN XỐT MAYONNAISE",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_06,
     category: "Pizza",
 
@@ -91,7 +91,7 @@ const products = [
   {
     id: "07",
     title: "PIZZA HẢI SẢN XỐT MAYONNAISE",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_07,
     category: "Pizza",
 
@@ -111,7 +111,7 @@ const products = [
   {
     id: "09",
     title: "PIZZA HẢI SẢN XỐT MAYONNAISE",
-    price: "99,000đ",
+    price: 99000,
     image: Pizza_09,
     category: "Pizza",
 
@@ -121,7 +121,7 @@ const products = [
   {
     id: "10",
     title: "Chicken_01",
-    price: "99,000đ",
+    price: 99000,
     image: Chicken_01,
     category: "Gà rán",
 
@@ -131,7 +131,7 @@ const products = [
   {
     id: "11",
     title: "Chicken_02",
-    price: "99,000đ",
+    price: 99000,
     image: Chicken_02,
     category: "Gà rán",
 
@@ -141,7 +141,7 @@ const products = [
   {
     id: "12",
     title: "Chicken_03",
-    price: "99,000đ",
+    price: 99000,
     image: Chicken_03,
     category: "Gà rán",
 
@@ -151,7 +151,7 @@ const products = [
   {
     id: "13",
     title: "Chicken_04",
-    price: "99,000đ",
+    price: 99000,
     image: Chicken_04,
     category: "Gà rán",
 
@@ -161,7 +161,7 @@ const products = [
   {
     id: "14",
     title: "pasta_01",
-    price: "99,000đ",
+    price: 99000,
     image: pasta_01,
     category: "Pasta",
 
@@ -171,7 +171,7 @@ const products = [
   {
     id: "15",
     title: "pasta_02",
-    price: "99,000đ",
+    price: 99000,
     image: pasta_02,
     category: "Pasta",
 
@@ -181,7 +181,7 @@ const products = [
   {
     id: "16",
     title: "pasta_03",
-    price: "99,000đ",
+    price: 99000,
     image: pasta_03,
     category: "Pasta",
 
@@ -191,7 +191,7 @@ const products = [
   {
     id: "17",
     title: "CHAI SPRITE 1.85L",
-    price: "39,000đ",
+    price: "39,000",
     image: Nuoc_01,
     category: "Nước uống",
 
@@ -201,7 +201,7 @@ const products = [
   {
     id: "18",
     title: "CHAI COCA-COLA 1.5L",
-    price: "39,000đ",
+    price: "39,000",
     image: Nuoc_02,
     category: "Nước uống",
   },
@@ -209,7 +209,7 @@ const products = [
   {
     id: "19",
     title: "CHAI FANTA 1.5L",
-    price: "99,000đ",
+    price: 99000,
     image: Nuoc_03,
     category: "Nước uống",
   },
@@ -217,7 +217,7 @@ const products = [
   {
     id: "20",
     title: "LON COCA-COLA ZERO 320ML",
-    price: "99,000đ",
+    price: 99000,
     image: Nuoc_04,
     category: "Nước uống",
   },
@@ -225,7 +225,7 @@ const products = [
   {
     id: "21",
     title: "CHAI COCA-COLA 390ML",
-    price: "20,000đ",
+    price: 20.000,
     image: Nuoc_05,
     category: "Nước uống",
   },
@@ -233,7 +233,7 @@ const products = [
   {
     id: "22",
     title: "CHAI FANTA 390ML",
-    price: "99,000đ",
+    price: 99000,
     image: Nuoc_06,
     category: "Nước uống",
   },
@@ -241,7 +241,7 @@ const products = [
   {
     id: "23",
     title: "CHAI SPRITE 390ML",
-    price: "99,000đ",
+    price: 99000,
     image: Nuoc_07,
     category: "Nước uống",
   },
@@ -302,9 +302,6 @@ const products = [
     category: "Nước uống",
 
   },
-
-
- 
 
 ];
 
