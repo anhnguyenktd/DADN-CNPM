@@ -3,6 +3,7 @@ import { Container } from 'reactstrap'
 import logo from "../../assets/images/logo.png"
 import { NavLink, Link } from "react-router-dom"
 import '../../styles/header.css'
+import { useSelector } from 'react-redux'
 
 const nav__links = [
   {
@@ -24,7 +25,8 @@ const nav__links = [
 ]
 
 const Header = () => {
-  const menuRef = useRef(null)
+  const menuRef = useRef(null);
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
   return (
     <header className="header">
@@ -54,7 +56,7 @@ const Header = () => {
               <span className='cart__icon'>
                 <i class="ri-shopping-basket-line"></i>
                 <span className='cart__badge'>
-                  2
+                  {totalQuantity}
                 </span>
               </span>
               <span className='user'>
