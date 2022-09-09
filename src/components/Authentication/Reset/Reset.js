@@ -7,11 +7,12 @@ import "../../../styles/Reset.css";
 
 function Reset() {
   const [email, setEmail] = useState("");
-  const [user, loading] = useAuthState(auth);
+  const [user, loading, error] = useAuthState(auth);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (loading) return;
-    if (user) useNavigate("/");
+    if (user) navigate("/");
   }, [user, loading]);
 
   return (
