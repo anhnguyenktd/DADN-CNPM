@@ -37,7 +37,7 @@ const CheckOut = () => {
         <Container>
           <Row>
             <Col lg="8" md="6" >
-              <h6 className="md-4">Địa chỉ giao hàng</h6>
+              <h6 className="mb-4">Địa chỉ giao hàng</h6>
               <form className="checkout__form" onSubmit={submitHandler}>
                 <div className="form__group">
                   <input
